@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); 
+
+
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255, 0)
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* **************************************NAVBAR********************* */
+
+.logo{
+  width: 10rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+
+
+/* *******************menu links****************** */
+
+nav a.nav-link{
+  /* font-weight: 1000; */
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  cursor: pointer;    
+  margin-right: 1rem;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav> li> a{
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav> li> a:hover,.navbar-nav> li> a:focus {
+  border-top: 0.1875rem solid var(--primary-orange) !important;
+}
